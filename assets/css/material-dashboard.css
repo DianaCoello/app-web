@@ -796,7 +796,7 @@ h2.title {
     padding: 5px 0px;
     display: block;
     font-size: 18px;
-    color: #303F9F;
+    color: #2f618e;
     text-align: center;
     font-weight: 400;
     line-height: 30px;
@@ -877,7 +877,7 @@ h2.title {
 
 .sidebar[data-color="purple"] .nav li.active a,
 .off-canvas-sidebar[data-color="purple"] .nav li.active a {
-    background-color: #303F9F;
+    background-color: #2f618e;
     box-shadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2);
 }
 
@@ -3426,7 +3426,7 @@ select.form-control[multiple],
 .table>thead>tr>th {
     border-bottom-width: 1px;
     font-size: 1em;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .table .radio,
@@ -5264,7 +5264,7 @@ footer .btn {
 }
 
 .card [data-background-color="purple"] {
-    background: linear-gradient(60deg, #303F9F, #3f51b5);
+    background: linear-gradient(60deg, #2f618e, #3f51b5);
     box-shadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2);
 }
 
@@ -6679,6 +6679,10 @@ footer .btn {
     }
     .social-line.pull-right {
         float: none;
+    }
+    .pull-righto{
+        float: right;
+        margin-right: 5%;
     }
     .footer:not(.footer-big) nav>ul li {
         float: none;
